@@ -88,3 +88,7 @@ PRODUCT_BOOT_JARS += \
 # WiFi
 PRODUCT_PACKAGES += \
     libwpa_client
+
+# Navigation
+PRODUCT_PACKAGES += \
+    NavigationBarMode2ButtonOverlay
