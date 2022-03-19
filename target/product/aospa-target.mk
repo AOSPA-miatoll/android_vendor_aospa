@@ -16,7 +16,7 @@
 $(call inherit-product, vendor/aospa/target/product/version.mk)
 
 # Bootanimation
-$(call inherit-product, vendor/aospa/bootanimation/bootanimation.mk)
+$(call inherit-product, vendor/aospa/prebuilts/bootanimation/bootanimation.mk)
 
 # Don't dexpreopt prebuilts. (For GMS).
 DONT_DEXPREOPT_PREBUILTS := true
