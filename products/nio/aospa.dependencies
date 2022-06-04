@@ -1,0 +1,44 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "BladeRunner-A2C/device_motorola_nio",
+        "target_path":  "device/motorola/nio",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "BladeRunner-A2C/msm-4.19-nio",
+        "target_path":  "kernel/motorola/nio",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "gitlab",
+        "repository":   "BladeRunner-A2C/vendor_motorola_nio",
+        "target_path":  "vendor/motorola/nio",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "sapphire-865"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "sapphire-865"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_gps",
+        "target_path":  "hardware/qcom/gps",
+        "revision":     "sapphire-865"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "sapphire-865"
+    }
+]

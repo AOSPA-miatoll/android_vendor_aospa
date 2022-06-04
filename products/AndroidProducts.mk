@@ -16,6 +16,7 @@
 PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/drg/aospa_drg.mk \
     $(LOCAL_DIR)/mini5g/aospa_mini5g.mk \
+    $(LOCAL_DIR)/nio/aospa_nio.mk \
     $(LOCAL_DIR)/oneplus9/aospa_oneplus9.mk \
     $(LOCAL_DIR)/oneplus9pro/aospa_oneplus9pro.mk
 
@@ -23,5 +24,6 @@ PRODUCT_MAKEFILES += \
 COMMON_LUNCH_CHOICES += \
     aospa_drg-userdebug \
     aospa_mini5g-userdebug \
+    aospa_nio-userdebug \
     aospa_oneplus9-userdebug \
     aospa_oneplus9pro-userdebug
