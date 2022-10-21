@@ -41,10 +41,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     ro.charger.enable_suspend=1
 
-# curl
-PRODUCT_PACKAGES += \
-    curl
-
 # Dex2oat
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     dalvik.vm.dex2oat64.enabled=true
@@ -69,6 +65,11 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
 PRODUCT_PACKAGES += \
     fsck.exfat \
     mkfs.exfat
+
+# Extra tools
+PRODUCT_PACKAGES += \
+    curl \
+    vim
 
 # Fonts
 PRODUCT_COPY_FILES += \
