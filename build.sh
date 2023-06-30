@@ -196,6 +196,13 @@ fi
 echo -e "${CLR_BLD_BLU}Starting compilation${CLR_RST}"
 echo -e ""
 
+# If we aren't in Jenkins, use the engineering tag
+if [ -z "${BUILD_NUMBER}" ]; then
+    export FILE_NAME_TAG=eng.$USER
+else
+    export FILE_NAME_TAG=$BUILD_NUMBER
+fi
+
 # Build a specific module(s)
 if [ "${MODULES}" ]; then
     m ${MODULES[@]} "$CMD"
