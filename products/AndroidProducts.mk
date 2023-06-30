@@ -51,6 +51,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/phone1/aospa_phone1.mk \
     $(LOCAL_DIR)/porsche/aospa_porsche.mk \
     $(LOCAL_DIR)/raven/aospa_raven.mk \
+    $(LOCAL_DIR)/redwood/aospa_redwood.mk \
     $(LOCAL_DIR)/spes/aospa_spes.mk \
     $(LOCAL_DIR)/sunny/aospa_sunny.mk \
     $(LOCAL_DIR)/surya/aospa_surya.mk \
@@ -94,6 +95,7 @@ COMMON_LUNCH_CHOICES += \
     aospa_phone1-userdebug \
     aospa_porsche-userdebug \
     aospa_raven-userdebug \
+    aospa_redwood-userdebug \
     aospa_spes-userdebug \
     aospa_sunny-userdebug \
     aospa_surya-userdebug \
