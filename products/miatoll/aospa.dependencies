@@ -1,14 +1,20 @@
 [
     {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_device_xiaomi_miatoll",
+        "remote":       "github",
+        "repository":   "BladeRunner-A2C/proprietary_device_xiaomi_miatoll",
         "target_path":  "device/xiaomi/miatoll",
         "revision":     "topaz"
     },
     {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_kernel_xiaomi_miatoll",
+        "remote":       "github",
+        "repository":   "BladeRunner-A2C/proprietary_kernel_xiaomi_miatoll",
         "target_path":  "kernel/xiaomi/miatoll",
+        "revision":     "topaz-mm"
+    },
+    {
+        "remote":       "github",
+        "repository":   "BladeRunner-A2C/proprietary_vendor_xiaomi_miatoll",
+        "target_path":  "vendor/xiaomi/miatoll",
         "revision":     "topaz"
     },
     {
@@ -37,6 +43,12 @@
     },
     {
         "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_xiaomi",
+        "target_path":  "hardware/xiaomi",
+        "revision":     "topaz"
+    },
+    {
+        "remote":       "aospa",
         "repository":   "AOSPA/android_vendor_nxp_opensource_halimpl",
         "target_path":  "vendor/nxp/opensource/halimpl",
         "revision":     "topaz-pn5xx"
@@ -48,15 +60,8 @@
         "revision":     "topaz-pn5xx"
     },
     {
-        "remote":       "blobs",
-        "repository":   "proprietary_vendor_xiaomi",
-        "target_path":  "vendor/xiaomi",
-        "revision":     "topaz",
-        "clone-depth":  "1"
-    },
-    {
-        "remote":       "blobs-gitlab",
-        "repository":   "proprietary_vendor_xiaomi_camera",
+        "remote":       "gitlab",
+        "repository":   "BladeRunner-A2C/vendor_xiaomi_camera",
         "target_path":  "vendor/xiaomi/camera",
         "revision":     "topaz-miatoll",
         "clone-depth":  "1"
