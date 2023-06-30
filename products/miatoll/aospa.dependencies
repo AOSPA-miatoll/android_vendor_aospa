@@ -1,14 +1,20 @@
 [
     {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_device_xiaomi_miatoll",
+        "remote":       "github",
+        "repository":   "BladeRunner-A2C/proprietary_device_xiaomi_miatoll",
         "target_path":  "device/xiaomi/miatoll",
         "revision":     "uvite"
     },
     {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_kernel_xiaomi_miatoll",
+        "remote":       "github",
+        "repository":   "BladeRunner-A2C/proprietary_kernel_xiaomi_miatoll",
         "target_path":  "kernel/xiaomi/miatoll",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "github",
+        "repository":   "BladeRunner-A2C/proprietary_vendor_xiaomi_miatoll",
+        "target_path":  "vendor/xiaomi/miatoll",
         "revision":     "uvite"
     },
     {
@@ -52,12 +58,5 @@
         "repository":   "AOSPA/android_vendor_nxp_opensource_hidlimpl",
         "target_path":  "vendor/nxp/opensource/hidlimpl",
         "revision":     "uvite-pn5xx"
-    },
-    {
-        "remote":       "blobs",
-        "repository":   "proprietary_vendor_xiaomi",
-        "target_path":  "vendor/xiaomi",
-        "revision":     "uvite",
-        "clone-depth":  "1"
     }
 ]
