@@ -40,10 +40,6 @@ PRODUCT_SYSTEM_PROPERTIES += \
 # Boot Animation
 $(call inherit-product, vendor/aospa/bootanimation/bootanimation.mk)
 
-# Camera
-PRODUCT_PACKAGES += \
-    GoogleCameraGo
-
 # curl
 PRODUCT_PACKAGES += \
     curl
