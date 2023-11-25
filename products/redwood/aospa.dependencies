@@ -18,7 +18,7 @@
         "revision":     "uvite"
     },
     {
-        "remote":       "gitlab",
+        "remote":       "gitea",
         "repository":   "BladeRunner-A2C/proprietary_vendor_xiaomi_firmware",
         "target_path":  "vendor/xiaomi/firmware",
         "revision":     "uvite"
