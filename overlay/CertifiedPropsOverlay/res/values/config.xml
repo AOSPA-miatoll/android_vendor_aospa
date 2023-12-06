@@ -6,12 +6,12 @@
 <resources>
     <!-- Build properties from a GMS certified device against current platform SPL level -->
     <string-array name="config_certifiedBuildProperties" translatable="false">
-        <item>PRODUCT:mata</item>
-        <item>DEVICE:mata</item>
-        <item>MANUFACTURER:Essential Products</item>
-        <item>BRAND:essential</item>
-        <item>MODEL:PH-1</item>
-        <item>FINGERPRINT:essential/mata/mata:8.1.0/OPM1.180104.092/224:user/release-keys</item>
-        <item>VERSION.SECURITY_PATCH:2018-03-05</item>
+        <item>PRODUCT:discovery</item>
+        <item>DEVICE:discovery</item>
+        <item>MANUFACTURER:Sony</item>
+        <item>BRAND:Sony</item>
+        <item>MODEL:Xperia XA2 Ultra</item>
+        <item>FINGERPRINT:Sony/H4213/H4213:8.0.0/50.1.A.4.76/2573206309:user/release-keys</item>
+        <item>VERSION.SECURITY_PATCH:2018-01-01</item>
     </string-array>
 </resources>
