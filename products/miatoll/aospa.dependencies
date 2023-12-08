@@ -18,6 +18,12 @@
         "revision":     "uvite"
     },
     {
+        "remote":       "github",
+        "repository":   "ghostrider-reborn/CertifiedPropsOverlay",
+        "target_path":  "vendor/aospa/apps/CertifiedPropsOverlay",
+        "revision":     "main"
+    },
+    {
         "remote":       "aospa",
         "repository":   "AOSPA/android_hardware_qcom_audio",
         "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
