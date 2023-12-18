@@ -64,5 +64,12 @@
         "repository":   "AOSPA/android_vendor_nxp_opensource_hidlimpl",
         "target_path":  "vendor/nxp/opensource/hidlimpl",
         "revision":     "uvite-pn5xx"
+    },
+    {
+        "remote":       "gitlab",
+        "repository":   "BladeRunner-A2C/vendor_xiaomi_camera",
+        "target_path":  "vendor/xiaomi/camera",
+        "revision":     "uvite-miatoll",
+        "clone-depth":  "1"
     }
 ]
