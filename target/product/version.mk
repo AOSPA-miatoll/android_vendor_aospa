@@ -45,6 +45,8 @@ ifdef AOSPA_BUILDTYPE
       AOSPA_BUILD_VARIANT := alpha
   else ifeq ($(AOSPA_BUILDTYPE), BETA)
       AOSPA_BUILD_VARIANT := beta
+  else ifeq ($(AOSPA_BUILDTYPE), DEV)
+      AOSPA_BUILD_VARIANT := dev
   else ifeq ($(AOSPA_BUILDTYPE), STABLE)
       AOSPA_BUILD_VARIANT := stable
   endif

@@ -107,6 +107,8 @@ if [ $AOSPA_VARIANT ]; then
     AOSPA_VARIANT=`echo $AOSPA_VARIANT |  tr "[:upper:]" "[:lower:]"`
     if [ "${AOSPA_VARIANT}" = "stable" ]; then
         export AOSPA_BUILDTYPE=STABLE
+    elif [ "${AOSPA_VARIANT}" = "dev" ]; then
+        export AOSPA_BUILDTYPE=DEV
     elif [ "${AOSPA_VARIANT}" = "beta" ]; then
         export AOSPA_BUILDTYPE=BETA
     elif [ "${AOSPA_VARIANT}" = "alpha" ]; then
