@@ -1,0 +1,75 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "BladeRunner-A2C/device_motorola_eqe",
+        "target_path":  "device/motorola/eqe",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "BladeRunner-A2C/device_motorola_eqe-kernel",
+        "target_path":  "device/motorola/eqe-kernel",
+        "revision":     "uvite",
+        "clone-depth":  "1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "BladeRunner-A2C/vendor_motorola_eqe",
+        "target_path":  "vendor/motorola/eqe",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "github",
+        "repository":   "BladeRunner-A2C/vendor_aospa-priv",
+        "target_path":  "vendor/aospa-priv",
+        "revision":     "main"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "uvite-8550"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "uvite-8550"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_gps",
+        "target_path":  "hardware/qcom/gps",
+        "revision":     "uvite-8550"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "uvite-8550"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_motorola",
+        "target_path":  "hardware/motorola",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_nxp_opensource_halimpl",
+        "target_path":  "vendor/nxp/opensource/halimpl",
+        "revision":     "uvite-SN100X-legacy"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_nxp_opensource_hidlimpl",
+        "target_path":  "vendor/nxp/opensource/hidlimpl",
+        "revision":     "uvite-SN100X-legacy"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_qcom_opensource_arpal-lx",
+        "target_path":  "vendor/qcom/opensource/pal",
+        "revision":     "uvite-8550"
+    }
+]
