@@ -9,7 +9,7 @@
         "remote":       "github",
         "repository":   "BladeRunner-A2C/kernel_sony_sagami",
         "target_path":  "kernel/sony/sagami",
-        "revision":     "tmp"
+        "revision":     "vauxite"
     },
     {
         "remote":       "github",
